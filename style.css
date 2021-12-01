@@ -1,0 +1,313 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: rgba(200,255,200,0.4);
+	width: 100%;
+}
+
+.menu
+{
+	width: 100%;
+	min-height: 50px;
+	background-color: rgba(255,255,0,0.8);
+}
+
+.menu ul
+{
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	text-align: center;
+	justify-content: space-evenly;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 23px;
+
+}
+.menu ul li
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	display: block;
+}
+.menu ul li:hover
+{
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+
+}
+a
+{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.menu a:hover
+{
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+}
+#bi
+{
+	height: 480px;
+	width: 90%;
+	
+	margin-left: 50px;
+	margin-top: 20px;
+	border: 3px solid gray;
+	background-color: rgba(255,255,0,0.3);
+}
+#bi .hd
+{
+	text-align: center;
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.bi_inner
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+#bi img
+{
+	height: 390px;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: 26px;
+	border: 3px solid blue;
+}
+.bi_text
+{
+	border : 3px solid blue;
+	margin: 20px;
+	width: 100%;
+	height: 390px;
+	margin-top: 20px;
+	margin-left: 26px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.bg_white
+{
+
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 7px;
+}
+.bg_gray
+{
+	text-align: center;
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 7px;
+}
+#edu
+{
+	height: 280px;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 3px solid green;
+	margin-bottom: 10px;
+}
+#edu h1,#pro h1,#hob h1,#sm h1,#con h1
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+	background-color:gray;
+	color: white;
+}
+.Edus
+{
+	display: flex;
+	justify-content: space-evenly;
+	font-weight: bold;
+	background-color: rgba(255,255,0,0.3);
+	height: 230px;
+	font-size: 19px;
+}
+.edu_text
+{
+	padding-top : 30px;
+}
+i
+{
+	margin-left: 90px;
+	margin-top: 31px;
+}
+.edu_text a:hover
+{
+	background-color: none;
+}
+#pro
+{
+	height: 607px;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 3px solid gray;
+	margin-bottom: 10px;
+}
+.pro_kyi,.pro_insu
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+.kyi_text h3, .pro_insu h3
+{
+	margin-top: 6px;
+}
+.pro_kyi img
+{
+	height: 227px;
+	width: 280px;
+}
+.pro_insu img
+{
+	height: 240px;
+	width: 280px;
+}
+#hob,#sm
+{
+	height: 430px;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 3px solid blue;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,0,0.3);
+}
+
+.hob_text_n_img img
+{
+	margin-top: 25px;
+}
+.second li
+{
+	margin-left: 11px;
+}
+.second ul
+{
+	margin-top: 15px;
+}
+#sm
+{
+	border: 3px solid green;
+	height: 200px;
+	background-color: rgba(255,255,0,0.4);
+}
+#sm div i
+{
+	margin-right: 20px;
+}
+#sm-1
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 18px;
+}
+#con
+{
+	height: 315px;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 3px solid gray;
+	margin-bottom: 10px;
+	
+}
+#con form input, #con form textarea
+{
+	width: 80%;
+	height: 40px;
+}
+input,textarea,button
+{
+	width: 80%;
+	
+	margin-left: 80px;
+	border: 2px solid blue;
+	border-radius: 7px;
+}
+input::-webkit-input-placeholder
+{
+	padding-top: 0px;
+}
+form h3
+{
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+button
+{
+	margin-top: 25px;
+	border: 2px solid blue;
+	background-color: transparent;
+	width: 130px;
+	margin-left: 360px;
+	height: 35px;
+	font-weight: bold;
+	font-size: 15px;
+}
+button:hover
+{
+	font-weight: bold;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+}
+.con_hd
+{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	background-color:gray;
+	color: white;
+}
+a:hover
+{
+	color: gray;
+}
+.mail:hover
+{
+	background-color: gray;
+}
+#sm
+{
+	background-color: rgba(255,255,0,0.4);
+}
